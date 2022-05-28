@@ -1,0 +1,47 @@
+{
+	"name": "block-explorer",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/primefaces/sakai-vue.git"
+	},
+	"license": "MIT",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint",
+		"test:unit": "vue-cli-service test:unit",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-plugin-eslint": "~4.5.0",
+		"@vue/cli-plugin-router": "~4.5.0",
+		"@vue/cli-service": "~4.5.0",
+		"@vue/compiler-sfc": "^3.0.0",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.7.2",
+		"eslint-plugin-vue": "^7.0.0",
+		"ganache": "^7.2.0",
+		"ganache-cli": "^6.12.2",
+		"jest": "^28.1.0",
+		"sass": "^1.45.0",
+		"sass-loader": "^8.0.2"
+	},
+	"dependencies": { 
+		"bignumber.js": "^9.0.2",
+		"chart.js": "3.3.2",
+		"core-js": "^3.6.5",
+		"fs": "0.0.1-security",
+		"path": "^0.12.7",
+		"primeflex": "^3.1.2",
+		"primeicons": "^5.0.0",
+		"primevue": "^3.12.2",
+		"prismjs": "1.9.0",
+		"rxjs": "^7.5.5",
+		"solc": "^0.8.14-fixed",
+		"vue": "3.2.9",
+		"vue-router": "^4.0.0-0",
+		"web3": "^1.7.3"
+	}
+}
