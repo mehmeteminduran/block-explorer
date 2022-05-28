@@ -1,4 +1,4 @@
-#  Ether Cash Flow Tool 
+#  Block Explorer 
 
 ### Getting Started
 Block Explorer is an application which lets a user access ad-hoc blockchain data. It displays an Ether transfer report by answering below questions: 

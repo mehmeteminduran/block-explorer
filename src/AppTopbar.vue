@@ -1,7 +1,7 @@
 <template>
 	<div class="layout-topbar">
 		<router-link to="/" class="layout-topbar-logo"> 
-			<span>ETHER CASH FLOW</span>
+			<span>BLOCK EXPLORER</span>
 		</router-link>   
 	</div>
 </template>
