@@ -34,7 +34,7 @@ npm run serve
 ```
 
 ### Vue CLI Scripts
-Following commands can be used to build, test, and run application.
+This project has developed using Vue.js. Following commands can be used to build, test, and run application.
 ```
 "npm run serve": Starts the development server
 "npm run build": Builds the application for deployment.
@@ -45,6 +45,7 @@ Following commands can be used to build, test, and run application.
 Block Explorer tool consists of 2 main parts; the application layout and the resources. Helpers/functions/Contracts and compilers/Web3 instance to communicate with the Ethereum network by connecting to an Ethereum node and to send request are placed inside the **src/helpers/** folder.</p>
  
 ### Dependencies
-If [MetaMask](https://metamask.io) Chrome extension installed your browser, Web3 instance will use it. Otherwise, it will use Infura as provider. 
+If [MetaMask](https://metamask.io) Chrome extension installed your browser, Web3 instance will use it. Otherwise, it will use [Infura](https://infura.io) as provider. 
 You can see the data on the network you want by replacing the Infura address with the address of your own account. 
+Tests use [Ganache](https://github.com/trufflesuite/ganache) as provider.
 
