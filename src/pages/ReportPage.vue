@@ -92,7 +92,6 @@ import { getBlockData } from "../helpers/blockExplorer";
 import web3 from "../helpers/initWeb3";
 import AddressValue from "./../components/AddressValue";
 import ReportDetail from "./../components/ReportDetail.vue";
-import { useToast } from "primevue/usetoast";
 export default {
   components: {
     AddressValue,
@@ -143,7 +142,7 @@ export default {
           this.mapBlockDetail(); 
         })
         .catch((err) => {
-          useToast().add({severity:'error', summary: 'Error', detail: err});
+          console.log(err)
         })
         .finally((this.loading = false)); 
     },

@@ -136,7 +136,8 @@ const mergeSenderAndReceiverAddresses = transactions => {
   transactions.forEach(tx => {
     if (tx.from && !addressMap[tx.from]) {
       addressMap[tx.from] = true;
-    } else if (tx.to && !addressMap[tx.to]) {
+    }
+    if (tx.to && !addressMap[tx.to]) {
       addressMap[tx.to] = true;
     }
   });
